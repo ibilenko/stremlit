@@ -9,4 +9,4 @@ services:
       - ./app:/app
     ports:
       - 8001:8001
-    command: streamlit run main.py --server.port=8001 --server.address=0.0.0.0.
+    command: streamlit run main.py --server.port=8001 --server.address=0.0.0.0
