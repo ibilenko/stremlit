@@ -6,5 +6,3 @@ RUN pip3 install -r requirements.txt
 WORKDIR /app
 
 EXPOSE 8002
-
-ENTRYPOINT run.sh
